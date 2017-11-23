@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module ContentfulMiddleman
   class ImportTask
     def initialize(space_name, content_type_names, content_type_mappers, contentful)

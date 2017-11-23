@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module ContentfulMiddleman
   module LocalData
     class File
@@ -17,7 +19,7 @@ module ContentfulMiddleman
       end
 
       def write
-        self.class.thor.create_file(local_data_file_path, nil, {}) { @data }
+        self.class.thor.create_file(local_data_file_path, nil, {}) { @data.force_encoding("utf-8") }
       end
 
       def local_data_file_path

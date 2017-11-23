@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'contentful/webhook/listener'
 
 module ContentfulMiddleman

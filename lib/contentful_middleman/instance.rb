@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module ContentfulMiddleman
   class Instance
     API_PREVIEW_URL = 'preview.contentful.com'

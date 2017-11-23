@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'middleman-cli'
 require 'date'
 require 'digest'

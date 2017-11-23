@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require 'thor/core_ext/hash_with_indifferent_access'
 require 'contentful_middleman/tools/preview_proxy'
 

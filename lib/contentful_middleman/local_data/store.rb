@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module ContentfulMiddleman
   module LocalData
     class Store

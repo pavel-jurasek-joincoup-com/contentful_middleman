@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require "middleman-core"
 
 require 'contentful_middleman/version'

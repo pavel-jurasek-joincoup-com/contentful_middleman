@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 module ContentfulMiddleman
   class Context < BasicObject
     def initialize
